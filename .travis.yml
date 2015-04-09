@@ -8,3 +8,10 @@ notifications:
       - "chat.freenode.net#bionode"
     template:
       - "%{message}: %{repository}#%{build_number}: %{commit_message} (%{branch} - %{commit} : %{author})"
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/bc08fdd81e88a4b24fed #bionode/bionode
+      - https://webhooks.gitter.im/e/17fa42847fe7c7dd8da7 #bionode/bionode-fastq
+    on_success: change
+    on_failure: always
+    on_start: false
