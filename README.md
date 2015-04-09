@@ -6,6 +6,8 @@
   <a href="http://bionode.io/">bionode.io</a>
 </p>
 # bionode-fastq
+
+[![Join the chat at https://gitter.im/bionode/bionode-fastq](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bionode/bionode-fastq?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > Streamable FASTQ parser.    
 
 [![Build Status](https://travis-ci.org/bionode/bionode-fastq.svg?branch=master)](https://travis-ci.org/bionode/bionode-fastq)
