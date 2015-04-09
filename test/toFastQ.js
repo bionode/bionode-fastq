@@ -21,8 +21,8 @@ describe('toFastQ', function () {
         fastq.toFastQ('test/data/sample.fq', applyToEach, onEnd);
     });
 
-    it('should process 750000 objects', function (done) {
-        output.length.should.equal(750000);
+    it('should process 100 objects', function (done) {
+        output.length.should.equal(100);
         done();
     });
 });
