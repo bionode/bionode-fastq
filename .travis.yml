@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "0.10"
+  - "0.11"
+notifications:
+  irc:
+    channels:
+      - "chat.freenode.net#bionode"
+    template:
+      - "%{message}: %{repository}#%{build_number}: %{commit_message} (%{branch} - %{commit} : %{author})"
