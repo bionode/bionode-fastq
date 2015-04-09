@@ -5,7 +5,7 @@ var fastq = require('../index');
 
 describe('toFastQ', function () {
 
-    this.timeout(3000);
+    this.timeout(4000);
     var output = [];
 
     it('should run without error', function (done) {
