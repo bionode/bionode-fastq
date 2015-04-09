@@ -1,0 +1,30 @@
+{
+  "name": "bionode-fastq",
+  "version": "0.1.0",
+  "homepage": "http://bionode.io",
+  "description": "Streamable FASTQ parser",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": {
+    "name": "Martin Page",
+    "email": "wookoouk@gmail.com"
+  },
+  "keywords": [
+    "bio",
+    "biology",
+    "bioinformatics",
+    "bionode",
+    "fastq",
+    "parser",
+    "streams",
+    "cli",
+    "science"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
+  }
+}
