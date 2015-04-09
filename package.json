@@ -4,7 +4,7 @@
   "homepage": "http://bionode.io",
   "description": "Streamable FASTQ parser",
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
   "author": {
     "name": "Martin Page",
@@ -25,6 +25,7 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^2.2.0",
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.4",
+    "standard": "^3.5.0"
   }
 }
