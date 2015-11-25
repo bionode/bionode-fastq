@@ -17,7 +17,8 @@ describe('toFastQ', function () {
       }
       return done()
     }
-    fastq.toFastQ('test/data/sample.fq', applyToEach, onEnd)
+
+    fastq.read('test/data/sample.fq').on('data', applyToEach).on('end', onEnd)
   })
 
   it('should process 100 objects', function (done) {
