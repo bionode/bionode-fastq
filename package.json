@@ -24,6 +24,9 @@
     "science"
   ],
   "main": "index.js",
+  "bin": {
+    "bionode-fastq": "cli.js"
+  },
   "license": "MIT",
   "devDependencies": {
     "chai": "^2.2.0",
