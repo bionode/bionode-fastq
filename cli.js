@@ -1,7 +1,8 @@
 #!/usr/bin/env node
+
 var fs = require('fs')
 var minimist = require('minimist')
-var fastq = require('./index')
+var fastq = require('./index.js')
 
 var argv = minimist(process.argv.slice(2), {
   alias: {
@@ -29,8 +30,5 @@ fq.on('data', function (data) {
 })
 
 fq.on('error', function (err) {
-  console.log(
-        'There was an error:\n' +
-        err
-    )
+  console.log('There was an error:\n', err)
 })
